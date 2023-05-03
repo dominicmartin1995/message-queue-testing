@@ -7,8 +7,8 @@ namespace API.Controllers;
 public class MessageController
 {
     [HttpPost]
-    public async Task Send()
+    public Task Send()
     {
-
+        return Task.CompletedTask;
     }
 }
